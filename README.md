@@ -49,7 +49,8 @@ python src/ingest_sgo.py && python src/dedup.py
 python src/exposure.py survey    # then confirm data/interim/cpuc_mapping.csv
 python src/exposure.py extract
 python src/benchmark.py          # requires filled data/verify/*.csv
-python src/model.py --data real
+python src/run_real.py
+python src/run_variants.py       # sensitivity suite
 ```
 
 ## Model status
