@@ -1,0 +1,10 @@
+pymc>=5.10
+arviz
+pandas
+numpy
+pyyaml
+requests
+openpyxl
+matplotlib
+h5netcdf
+h5py

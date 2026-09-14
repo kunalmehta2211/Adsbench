@@ -1,0 +1,5 @@
+operator,tau,source
+waymo,0.1,default_clamped
+cruise,0.1,default_clamped
+zoox,0.1,default_clamped
+wride,0.1,default_clamped

@@ -1,0 +1,72 @@
+model:
+  chains: 4
+  delta_by_operator:
+    cruise:
+      mean: -2.15
+      sd: 0.4
+    waymo:
+      mean: -0.22
+      sd: 0.3
+    zoox:
+      mean: -1.35
+      sd: 0.5
+  delta_prior_mean_log: -0.105
+  delta_prior_sd: 0.1
+  draws: 2000
+  target_accept: 0.9
+  tau_default: 0.1
+  tune: 2000
+operators:
+  autox:
+  - AutoX
+  - AutoX Technologies Inc.
+  cruise:
+  - Cruise LLC
+  - GM Cruise LLC
+  - Cruise
+  waymo:
+  - Waymo LLC
+  - Waymo
+  wride:
+  - WeRide
+  - WeRide Corp
+  zoox:
+  - Zoox
+  - Zoox Inc.
+  - Zoox, Inc.
+paths:
+  interim: data/interim
+  processed: data/processed
+  raw: data/raw
+  results: results
+severity_levels:
+- sgo_any
+- police_reportable_proxy
+- any_injury
+- airbag_or_tow
+- serious_plus
+study:
+  end_quarter: 2026Q2
+  metros:
+    california:
+      cities:
+      - San Francisco
+      - Daly City
+      - South San Francisco
+      - Brisbane
+      - San Bruno
+      - Millbrae
+      - San Mateo
+      - Los Angeles
+      - Santa Monica
+      - West Hollywood
+      - Beverly Hills
+      - Culver City
+      - Inglewood
+      switrs_counties:
+      - San Francisco
+      - San Mateo
+      - Los Angeles
+  rider_only: true
+  start_quarter: 2023Q3
+  state: CA

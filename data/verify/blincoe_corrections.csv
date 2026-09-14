@@ -1,0 +1,4 @@
+severity,r_mean,r_sd,verified,source_note
+any_injury,,,NO,"Fill from Blincoe et al. 2023 DOT HS 813 403 Table on police reporting of injury crashes"
+serious_plus,,,NO,"Serious+ reporting probability, same source"
+police_reportable_proxy,,,NO,"PDO reporting probability, same source; expect wide sd"

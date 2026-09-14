@@ -1,0 +1,5 @@
+metro,severity,H,V,r_alpha,r_beta,verified
+california,sgo_any,48,739599.3836671802,999.0,1.0,YES_UMTRI
+california,airbag_or_tow,66,5612244.897959184,999.0,1.0,YES_UMTRI
+california,serious_plus,15270,239584999900.0,60.52,4.07,YES_OTS_CPRD_BLINCOE
+california,any_injury,8799,6265000000.000001,58.49,27.4,YES_SWITRS_SF_2023H2plus
